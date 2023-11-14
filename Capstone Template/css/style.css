@@ -6,3 +6,37 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+.alignment {
+    height: 100vh;
+}
+h1{
+    text-align:center;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.bg-img-1 {
+    background-image: url("../images/Adams-StoryImage_2.jpg");
+}
+.bg-img-2 {
+    background-image: url('../images/NKinsman-StoryImg_2.jpg');
+}
+.bg-img-3 {
+    background-image: url('../images/Jackson-StoryImg.jpg');
+}
+
+.carousel-image {
+    height: 100vh;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
