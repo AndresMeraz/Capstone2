@@ -25,11 +25,14 @@
         </nav>
     </header>
     <main>
-        <select id="states"></select>
-        <select id="parktype"></select>
+        <select id="states">
+            <option value = null>Select a State</option>
+        </select>
+        <select id="parktype">
+            <option value = null>Select a Type</option>
+        </select>
 
-        <input type="text" id="inputLocation">
-        <button type="button" onclick="searchLocation()">Search by location</button>
+        <button type="button" onclick="chooseStateOrType()">Search</button>
         <br>
         <br>
 
