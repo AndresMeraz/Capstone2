@@ -10,7 +10,7 @@ function mountainTemplate() {
   // let mySunrise = getSunsetForMountain(`${mountainsArray.coords.lat},${mountainsArray.coords.lng}`);
 
     //Mountain info displayed in a message value
-  let message =`<div class="card width:18rem" >
+  let message =`<div class="card" >
       <div class="card-body">
             <img class="mountain-photo" src="images/${matchingInfo.img}">
             <h5 class="card-title">${matchingInfo.name}</h5>

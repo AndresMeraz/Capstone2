@@ -45,11 +45,12 @@ function grabStateFromArray() {
   let message = ""
   for (let i = 0; i < stateInfo.length; i++) {
     message += 
-    `<div class="card" style="width: 18rem;">
+    `<div class="card">
     <div class="card-body">
-              <h5 class="card-title">${stateInfo[i].LocationName}</h5>
-              <p class="card-text">${stateInfo[i].City}, ${stateInfo[i].State}.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">${stateInfo[i].LocationName}</h5><br>
+              <p class="card-text">${stateInfo[i].City}, ${stateInfo[i].State} ${stateInfo[i].ZipCode}.</p>
+              <p class="card-text">Phone: ${stateInfo[i].Phone} <br> Fax: ${stateInfo[i].Fax}.</p>
+              
           </div>
         </div>`;
   }
@@ -63,11 +64,12 @@ function grabTypeFromArray() {
   let message = ""
   for (let i = 0; i < typeInfo.length; i++) {
     message += 
-    `<div class="card" style="width: 18rem;">
+    `<div class="card" >
     <div class="card-body">
-              <h5 class="card-title">${typeInfo[i].LocationName}</h5>
-              <p class="card-text">${typeInfo[i].City}, ${typeInfo[i].State}.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">${typeInfo[i].LocationName} </h5><br>
+              <p class="card-text">${typeInfo[i].City}, ${typeInfo[i].State} ${typeInfo[i].ZipCode}.</p>
+              <p class="card-text">Phone: ${typeInfo[i].Phone} <br> Fax: ${typeInfo[i].Fax}.</p>
+              
           </div>
         </div>`;
 }
@@ -82,11 +84,12 @@ function grabBothFromArray() {
   let message = ""
   for (let i = 0; i < bothInfo.length; i++) {
     message += 
-    `<div class="card" style="width: 18rem;">
+    `<div class="card">
     <div class="card-body">
-              <h5 class="card-title">${bothInfo[i].LocationName}</h5>
-              <p class="card-text">${bothInfo[i].City}, ${bothInfo[i].State}.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">${bothInfo[i].LocationName}</h5><br>
+              <p class="card-text">${bothInfo[i].City}, ${bothInfo[i].State} ${bothInfo[i].ZipCode}.</p>
+              <p class="card-text">Phone: ${bothInfo[i].Phone} <br> Fax: ${bothInfo[i].Fax}.</p>
+              
           </div>
         </div>`;
 }
@@ -97,7 +100,7 @@ document.getElementById("myParks").innerHTML = message
 function chooseStateOrType() {
   let stateName = document.getElementById("states").value;
   let parkType = document.getElementById("parktype").value;
-  console.log(typeof parkType); // used typeof to find out if stateName and parkType Variables were strings or not
+  console.log(typeof stateName, typeof parkType); // used typeof to find out if stateName and parkType Variables were strings or not
    if (stateName && parkType == "null") {
     grabStateFromArray()
   }
