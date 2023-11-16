@@ -1,8 +1,11 @@
-:root {
 
-}
 
 body {
+    background-image: url('../images/green-forest-background-idkxn.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
 }
@@ -10,16 +13,31 @@ body {
 .alignment {
     height: 100vh;
 }
+
 h1{
+    color: white;
     text-align:center;
 }
 
 p {
+    color: white;
     text-align: center;
 }
 
 .btn {
-    margin: 10px;
+    background-color: greenyellow;
+    font-size: 24px;
+    font-family: 'Readex Pro', sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: 1px;
+    outline: none;
+    
+    
+}
+.btn:hover {
+    background-color: bisque;
 }
 
 .bg-img-1 {
@@ -38,5 +56,11 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    
+}
+.container {
+    background-color: rgba(80, 80, 80, 0.5);
+    width: 30vw;
+    border-radius: 30px;
+    
 }

@@ -10,7 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Customs CSS -->
-    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -21,8 +20,7 @@
             <!--Start of my navigation-->
             <nav class="navbar navbar-expand navbar-light bg-light">
                 <div class="nav navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html" aria-current="page">Home <span
-                            class="visually-hidden">(current)</span></a>
+                    <a class="nav-item nav-link active" href="index.html" aria-current="page">Home</a>
                     <a class="nav-item nav-link" href="nationalpark.html">National Parks</a>
                     <a class="nav-item nav-link" href="mountains.html">Mountains</a>
                 </div>
@@ -33,16 +31,16 @@
     <!--End of my Header-->
     <main>
         <!-- CAROUSEL START-->
-            <div id="carouselSlides" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause=false>
+            <div id="carouselSlides" class="carousel slide carousel-fade col-12"  data-bs-ride="carousel" data-bs-pause=false>
                 <div class="carousel-inner">
                   <div class="carousel-item carousel-image bg-img-1 active" data-bs-interval="5000">
-                    <div class="alignment d-flex justify-content-center align-items-center">
+                    <div class="alignment d-flex justify-content-center align-items-center ">
                         <div class="container d-flex flex-column align-content-center justify-content-center mx-auto">
                             <h1>Enjoy the Outdoors!</h1>
                             <p> Learn about the various national parks and mountain ranges all over the United States.</p>
-                            <div class="buttonContainer d-flex">
-                                <button type="button" class="btn w-50 btn-primary">Primary</button>
-                                <button type="button" class="btn w-50 btn-primary">Primary</button>
+                            <div class="buttonContainer d-flex justify-content-around">
+                                <button type="button" class="btn w-50" onclick="location.href='nationalpark.html';">National Parks</button>
+                                <button type="button" class="btn w-50" onclick="location.href='mountains.html';">Mountains</button>
                             </div>
                         </div>
                     </div>
@@ -52,9 +50,9 @@
                         <div class="container d-flex flex-column align-content-center justify-content-center mx-auto">
                             <h1>Enjoy the Outdoors!</h1>
                             <p> Learn about the various national parks and mountain ranges all over the United States.</p>
-                            <div class="buttonContainer d-flex">
-                                <button type="button" class="btn w-50 btn-primary">Primary</button>
-                                <button type="button" class="btn w-50 btn-primary">Primary</button>
+                            <div class="buttonContainer d-flex justify-content-around">
+                              <button type="button" class="btn w-50" onclick="location.href='nationalpark.html';">National Parks</button>
+                                <button type="button" class="btn w-50" onclick="location.href='mountains.html';">Mountains</button>
                             </div>
                         </div>
                     </div>
@@ -64,9 +62,9 @@
                         <div class="container d-flex flex-column align-content-center justify-content-center mx-auto">
                             <h1>Enjoy the Outdoors!</h1>
                             <p> Learn about the various national parks and mountain ranges all over the United States.</p>
-                            <div class="buttonContainer d-flex">
-                                <button type="button" class="btn w-50 btn-primary">Primary</button>
-                                <button type="button" class="btn w-50 btn-primary">Primary</button>
+                            <div class="buttonContainer d-flex justify-content-around">
+                              <button type="button" class="btn w-50" onclick="location.href='nationalpark.html';">National Parks</button>
+                                <button type="button" class="btn w-50" onclick="location.href='mountains.html';">Mountains</button>
                             </div>
                         </div>
                     </div>
@@ -75,9 +73,9 @@
               </div>
         <!-- CAROUSEL END-->
         <!-- CARD start-->
-        <div class="row row-cols-3 row-cols-md-3 g-3">
+        <div class="row d-flex row-cols-8 offset-2 row-cols-md-3 g-3">
             <div class="col">
-              <div class="card">
+              <div class="card" style="width: 20rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -86,7 +84,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card" style="width: 20rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -95,7 +93,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card" style="width: 20rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -104,7 +102,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card" style="width: 20rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -113,7 +111,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card" style="width: 20rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -122,7 +120,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div class="card" style="width: 20rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>

@@ -97,7 +97,7 @@ document.getElementById("myParks").innerHTML = message
 function chooseStateOrType() {
   let stateName = document.getElementById("states").value;
   let parkType = document.getElementById("parktype").value;
-  console.log(typeof parkType);
+  console.log(typeof parkType); // used typeof to find out if stateName and parkType Variables were strings or not
    if (stateName && parkType == "null") {
     grabStateFromArray()
   }
