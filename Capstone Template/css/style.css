@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url('../images/green-forest-background-idkxn.png');
+    background-image: url('../images/green-forest-background-idkxn_upscaled.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,12 +12,16 @@ body {
 }
 
 .alignment {
-    height: 100vh;
+    height: 80vh;
 }
 
 h1{
     color: white;
     text-align:center;
+}
+h2 {
+    color: white;
+    text-align: center;
 }
 
 p {
@@ -42,17 +46,31 @@ p {
 }
 
 .bg-img-1 {
-    background-image: url("../images/Adams-StoryImage_2.jpg");
+    background-image: url("../images/carousel1_upscaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
 .bg-img-2 {
-    background-image: url('../images/NKinsman-StoryImg_2.jpg');
+    background-image: url('../images/carousel2_upscaled.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
+
 .bg-img-3 {
-    background-image: url('../images/Jackson-StoryImg.jpg');
+    background-image: url('../images/carousel3_upscaled.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 
 .carousel-image {
-    height: 100vh;
+    height: 75vh;
     opacity: 0.3;
     background-repeat: no-repeat;
     background-size: cover;
